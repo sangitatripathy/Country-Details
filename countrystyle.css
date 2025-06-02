@@ -1,0 +1,62 @@
+
+main{
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+.back-button{
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1) ;
+  border-radius: 3px;
+  padding: 8px 24px;
+  text-align: center;
+  cursor: pointer;
+}
+.country-details{
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  align-items: center;
+  margin-top: 64px;
+}
+.country-details img{
+  width: 40%;
+  border: 1px solid #ddd;
+}
+.details-text{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  row-gap: 12px;
+  column-gap: 4em;
+  max-height: 180px;
+}
+.details-text p{
+  margin: 0;
+}
+
+.border-countries{
+  margin-top: 2em;
+}
+.border-countries a {
+  display: inline-block;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1); /* Light shadow */
+  border-radius: 3px; /* Rounded corners */
+  padding: 4px 16px; /* Padding for better clickability */
+  margin: 5px; /* Adds spacing between the links */
+  font-size: 14px; /* Text size */
+}
+
+@media(max-width:1010px){
+  .country-details{
+    flex-direction: column;
+    margin-top: 34px;
+  }
+  .country-details img{
+    width: 100%;
+    height: unset;
+    max-width: 400px;
+  }
+  .details-text{
+    max-height: unset;
+  }
+}
