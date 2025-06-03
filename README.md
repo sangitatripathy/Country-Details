@@ -21,11 +21,11 @@ A simple web app that shows information about countries around the world using t
 
 ### 🌞 Light Mode
 
-https://github.com/sangitatripathy/Country-Details/blob/d064c1e192b20c45d56fb0be3f043b5f0ab0597e/Home%20page.png
+![image alt](https://github.com/sangitatripathy/Country-Details/blob/d064c1e192b20c45d56fb0be3f043b5f0ab0597e/Home%20page.png)
 
 ### 🔍 Country Detail View
 
-https://github.com/sangitatripathy/Country-Details/blob/d064c1e192b20c45d56fb0be3f043b5f0ab0597e/country%20details.png
+![image alt](https://github.com/sangitatripathy/Country-Details/blob/d064c1e192b20c45d56fb0be3f043b5f0ab0597e/country%20details.png)
 
 ## 🛠️ How to Run
 
